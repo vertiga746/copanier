@@ -29,7 +29,7 @@ def init():
                 typ = lambda x: x.split()
             if env_key in os.environ:
                 globals()[key] = typ(os.environ[env_key])
-    locale.setlocale(locale.LC_ALL, LOCALE)
+    #locale.setlocale(locale.LC_ALL, LOCALE)
 
 
 init()
